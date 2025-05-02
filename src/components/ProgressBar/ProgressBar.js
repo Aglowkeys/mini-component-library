@@ -57,6 +57,7 @@ const StyledInnerBar = styled.div`
   width: var(--value);
   height: 100%;
   border-radius: calc(var(--radius) - var(--padding));
+  transition: width 100ms linear;
 
   &:not(.full) {
     border-top-right-radius: 0;
